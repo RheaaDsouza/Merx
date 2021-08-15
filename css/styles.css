@@ -1,0 +1,202 @@
+header.mainheader {
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: #fff;
+    background-image: url("../assets/img/header-bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+  }
+  header.mainheader .mainheader-subheading {
+    font-size: 1.5rem;
+    font-style: italic;
+    line-height: 1.5rem;
+    margin-bottom: 25px;
+   
+  }
+  header.mainheader .mainheader-heading {
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 3.25rem;
+    margin-bottom: 2rem;
+  }
+  
+  
+  @media (min-width: 768px) {
+    header.mainheader {
+      padding-top: 17rem;
+      padding-bottom: 15rem;
+    }
+  
+  section#services{
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+  }
+  /*
+  @media (min-width: 700px){
+      section#services{
+          padding-top: 5rem;
+          /*padding-bottom:15rem;
+      }
+  }*/
+  
+  div.text-center{
+      padding:50px;
+      font-family: Georgia;
+  }
+  
+  section#contact{
+      background-image: url("../assets/img/map.png");
+      height: 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+  }
+  h3{
+      color: white;
+  }
+  .text-center {
+    text-align: center !important;
+  }
+  
+  .signin-link{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /*--------------------- form css---------------------------*/
+  .form-box{
+      width:400px;
+      height:450px;
+      position: relative;
+      margin: 5% auto;
+      background-color: #fff;
+      padding: 5px;
+      overflow: hidden;
+  }
+  .modal-header{
+      padding-top: 0rem;
+      padding-bottom: 0rem;
+  }
+  .button-box{
+      width:250px;
+      margin: 45px auto;
+      position: relative;
+      /*box-shadow:0 0 5px 10px #ff62141f;
+      border-radius: 20px;*/
+  }
+  
+  .toggle-btn{
+      padding:10px 30px;
+      cursor: pointer;
+      background: transparent;
+      border: 0;
+      outline: none;
+      position: relative;
+  }
+  
+  #btn{
+      top:0;
+      left:0;
+      height: 100%;
+      width: 110px;
+      position: absolute;
+      background-color: blue;
+      background: linear-gradient(to right, grey, white);
+      border-radius: 20px;
+      transition: 0.5s;
+  }
+  .inputs{
+      /*top:140px;*/
+      position: absolute;
+      transition: 0.5;
+      width: 300px;
+  }
+  
+  .input-field{
+      width: 100%;
+      padding:10px 10px 10px 0px  ;
+      margin: 5px 0;
+      border-top: 0;
+      border-left: 0;
+      border-right: 0;
+      border-bottom: 1px solid #999;
+      outline: none;
+      background: transparent;
+  
+  }
+  
+  .check-box{
+      margin: 30px 10px 30px 0;
+  }
+  
+  span{
+      color: #777;
+      position: absolute;
+      bottom: 59px;
+      font-size: 12px;
+  }
+  
+  .submit{
+      width:45%;
+      padding: 10px, 30px;
+      cursor:pointer;
+      display: block;
+      margin: auto;
+      background: linear-gradient(to right, grey, white);
+      border:0;
+      outline: none;
+      border-radius:30px;
+      height:30px;
+  }
+  
+  #register-form{
+      left:50px;
+  
+  }
+  #signin-form{
+      left:550px;
+  }
+  /*---------------card part---------*/
+  .flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #bbb;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-back {
+    color: white;
+    transform: rotateY(180deg);
+  }
+  #track{
+      background-image: url("../assets/img/tracking-img.png");
+  }
+  
+}
